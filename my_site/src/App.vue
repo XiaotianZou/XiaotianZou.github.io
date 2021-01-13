@@ -1,8 +1,5 @@
-asd
-
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -19,12 +16,23 @@ export default {
 </script>
 
 <style>
+
+
+body {
+  background-color: #2c3e50;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* background-color: salmon; */
+}
+
 #app {
+  margin: 10px;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: #2c3e50;
+  color: whitesmoke;
   margin-top: 60px;
 }
 </style>
